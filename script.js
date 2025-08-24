@@ -90,7 +90,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Make project cards clickable for live demo
     const projectards = document.querySelectorAll('.project-card');
     
-    projectCards.forEach(card => {
+    
         // Add hover effect class on mouseenter/mouseleave
         card.addEventListener('mouseenter', function() {
             this.classList.add('card-hover');
@@ -175,7 +175,7 @@ document.addEventListener('DOMContentLoaded', function() {
             });
         }
     });
-});
+;
 
 
 // Skills Section Enhancement

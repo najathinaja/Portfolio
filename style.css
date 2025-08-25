@@ -1,4 +1,4 @@
-/* General Styles */
+
 body {
   margin: 0;
   font-family: Arial, sans-serif;
@@ -10,7 +10,7 @@ body {
 }
 
 h1, h2, h3 {
-  color: #faf9f9; /* Dark brown */
+  color: #faf9f9; 
 }
  nav {
         display: flex;
@@ -29,18 +29,18 @@ h1, h2, h3 {
   text-decoration: none;
   color: #f4f2ef;
   font-weight: 500;
-  display: block;       /* make links stack vertically */
-  padding: 10px 0;      /* spacing for mobile view */
+  display: block;       
+  padding: 10px 0;      
 }
 
 /* Mobile menu styles */
 .hamburger {
-  display: none; /* Hidden by default on desktop */
+  display: none; 
   cursor: pointer;
   font-size: 24px;
   background: none;
   border: none;
-  color:  #ae8142; /* Change color as needed */
+  color:  #ae8142; 
 }
 
 .nav-links {
@@ -79,10 +79,10 @@ h1, h2, h3 {
 
   
   .nav-links.active {
-    display: flex; /* Show when active class is added */
+    display: flex; 
   }
   
-  /* Optional: X icon when menu is open */
+  
   .hamburger.open::before {
     content: "✕";
   }
@@ -106,7 +106,7 @@ header {
 }
 
 .hero h1 span {
-  color: #ffd28c; /* light brown highlight */
+  color: #ffd28c; 
 }
 
 .social-icons a {
@@ -175,7 +175,7 @@ header {
 
 .contact-info {
   display: grid;
-  place-items: center; /* Centers both horizontally and vertically */
+  place-items: center; 
   text-align: center;
   max-width: 200px;
   padding: 50px;
@@ -477,7 +477,7 @@ header {
   }
 }
 
-/* Professional Skills Section Styling */
+/* Skills Section Styling */
 .skills-section {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -543,7 +543,7 @@ header {
     transition: width 0.8s ease;
 }
 
-/* Specific category accents */
+
 .design-tools h2 {
     border-bottom-color: #BCAAA4;
 }
